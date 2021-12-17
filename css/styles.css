@@ -5,10 +5,13 @@
    --primary-text-color: #757575;
    --title-text-color: #212121;
    --white-text-color: #FFFFFF;
+   --black-text-color: #000000;
    --primary-bg-color: #FFFFFF;
    --secondary-bg-color: #F5F4FA;
    --accent-color: #2196F3;
+   --hover-btn-color: #188CE8;
    --dark-bg-color: #2F303A;
+   --portfolio-btn-color: #F5F4FA;
 }
 
 
@@ -16,6 +19,8 @@
 
 body {
    font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   letter-spacing: 0.03em;
    background-color: var(--white-color);
    color: var(--primary-text-color);
 }
@@ -46,12 +51,11 @@ body {
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
    color: var(--accent-color);
 }
 
 .header-logo > span {
-   color: #000000;
+   color: var(--black-text-color);
 }
 
 .nav-link {
@@ -115,7 +119,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-   background-color: #188CE8;
+   background-color: var(--hover-btn-color);
 }
 
 /* ---- FEATURES SECTION ---------------------------------- */
@@ -123,15 +127,12 @@ body {
 .features-title {
    font-size: 14px;
    line-height: 1.14;
-   letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--title-text-color);
 }
 
 .features-text {
-   font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
 }
 
 /* ---- WHAT WE DO SECTION -------------------------------- */
@@ -140,7 +141,6 @@ body {
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
-   letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
 
@@ -154,7 +154,6 @@ body {
    font-size: 36px;
    line-height: 1.17;
    text-align: center;
-   letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
 
@@ -163,7 +162,6 @@ body {
    font-size: 16px;
    line-height: 1.19;
    text-align: center;
-   letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
 
@@ -171,7 +169,6 @@ body {
    font-size: 16px;
    line-height: 1.19;
    text-align: center;
-   letter-spacing: 0.03em;
 }
 
 /* ---- FOOTER -------------------------------------------- */
@@ -185,7 +182,6 @@ body {
    font-weight: 700;
    font-size: 26px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
    color: var(--accent-color);
 }
 
@@ -197,7 +193,6 @@ body {
    font-style: normal;
    font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
 }
 
@@ -223,7 +218,7 @@ body {
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--title-text-color);
-   background-color: #F5F4FA;
+   background-color: var(--portfolio-btn-color);
    cursor: pointer;
 }
 
@@ -243,5 +238,5 @@ body {
 .portfolio-company-type {
    font-size: 16px;
    line-height: 1.87;
-   letter-spacing: 0.03em;
+   color: var(--primary-text-color);
 }
